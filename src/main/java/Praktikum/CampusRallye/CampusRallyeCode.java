@@ -12,9 +12,9 @@ public class CampusRallyeCode {
 
         String ergebnis2;
         if (ballWechselGeschafft) {
-            ergebnis2 = ("Außerdem habt ihr alle 10 Ballwechel geschaft. \n");
+            ergebnis2 = ("Außerdem habt ihr alle 10 Ballwechsel geschaft. \n");
         } else {
-            ergebnis2 = ("Leider habt ihr nicht alle 10 Ballwechel geschaft. \n");
+            ergebnis2 = ("Leider habt ihr nicht alle 10 Ballwechsel geschaft. \n");
         }
         String ergebnis3;
         if (inPongGewonnen) {
@@ -25,9 +25,9 @@ public class CampusRallyeCode {
 
         String ergebnis4;
         if (summeGebaeudenummern == 523) {
-            ergebnis4 = ("Beim Gebäudenummern zudammenzählen seit ihr auf " + summeGebaeudenummern + " gekommen, das stimmt! \n");
+            ergebnis4 = ("Beim Gebäudenummern Zusammenzählen seid ihr auf " + summeGebaeudenummern + " gekommen, das stimmt! \n");
         } else {
-            ergebnis4 = ("Beim Gebäudenummern zudammenzählen seit ihr auf " + summeGebaeudenummern + " gekommen, das ist leider falsch. \n");
+            ergebnis4 = ("Beim Gebäudenummern Zusammenzählen seid ihr auf " + summeGebaeudenummern + " gekommen, das ist leider falsch. \n");
         }
 
         String ergebnis5;
@@ -37,8 +37,8 @@ public class CampusRallyeCode {
             ergebnis5 = ("Euer Papierflieger ist " + distanzPapierflieger + " Meter weit geflogen, das geht besser. \n");
         }
 
-        String ergebnis6 = ("Beim Atruvia-Quiz habt ihr " + richtigeQuizAntworten + " von 3 richtigen Antworten gelifert. \n");
+        String ergebnis6 = ("Beim Atruvia-Quiz habt ihr " + richtigeQuizAntworten + " von 3 richtigen Antworten geliefert. \n");
 
-        System.out.println(ergebnis1 + ergebnis2 + ergebnis3 + ergebnis4 + ergebnis5 + ergebnis6 + "Wir hoffen dass ihr Spaß hattet und das euch der Campus gefallen hat.");
+        System.out.println(ergebnis1 + ergebnis2 + ergebnis3 + ergebnis4 + ergebnis5 + ergebnis6 + "Wir hoffen, dass ihr Spaß hattet und dass euch der Campus gefallen hat.");
     }
 }
