@@ -1,20 +1,20 @@
 public class CampusRallyeCode {
+
     public static void main(String[] args) {
-        
+       
 
 
 
 
 
 
-
-        String ergebnis1 = ("Glückwunsch, ihr als Team " + teamName + " habt " + gefundenePflanzen + " von 12 Pflanzen gefunden. \n");
+        String ergebnis1 = ("Glückwunsch, ihr als Team " + teamName + " habt " + gefundeneWortschnipsel + " von 13 Wortschnipseln gefunden. \n");
 
         String ergebnis2;
         if (ballWechselGeschafft) {
-            ergebnis2 = ("Außerdem habt ihr alle 10 Ballwechsel geschaft. \n");
+            ergebnis2 = ("Außerdem habt ihr alle 10 Ballwechsel geschafft. \n");
         } else {
-            ergebnis2 = ("Leider habt ihr nicht alle 10 Ballwechsel geschaft. \n");
+            ergebnis2 = ("Leider habt ihr nicht alle 10 Ballwechsel geschafft. \n");
         }
         String ergebnis3;
         if (inPongGewonnen) {
@@ -24,10 +24,10 @@ public class CampusRallyeCode {
         }
 
         String ergebnis4;
-        if (summeGebaeudenummern == 523) {
+        if (summeGebaeudenummern == 549) {
             ergebnis4 = ("Beim Gebäudenummern Zusammenzählen seid ihr auf " + summeGebaeudenummern + " gekommen, das stimmt! \n");
         } else {
-            ergebnis4 = ("Beim Gebäudenummern Zusammenzählen seid ihr auf " + summeGebaeudenummern + " gekommen, das ist leider falsch. \n");
+            ergebnis4 = ("Beim Gebäudenummern Zusammenzählen seid ihr auf " + summeGebaeudenummern + " gekommen, das ist leider falsch. richtige Antwort: 549 \n");
         }
 
         String ergebnis5;
@@ -41,4 +41,5 @@ public class CampusRallyeCode {
 
         System.out.println(ergebnis1 + ergebnis2 + ergebnis3 + ergebnis4 + ergebnis5 + ergebnis6 + "Wir hoffen, dass ihr Spaß hattet und dass euch der Campus gefallen hat.");
     }
+    
 }
