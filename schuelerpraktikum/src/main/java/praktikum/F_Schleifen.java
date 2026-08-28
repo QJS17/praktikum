@@ -1,4 +1,4 @@
-package Praktikum;
+package praktikum;
 
 
 public class F_Schleifen

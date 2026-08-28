@@ -1,4 +1,4 @@
-package Praktikum;
+package praktikum;
 
 import javax.swing.*;
 

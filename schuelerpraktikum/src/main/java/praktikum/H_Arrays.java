@@ -1,4 +1,4 @@
-package Praktikum;
+package praktikum;
 
 public class H_Arrays
 {

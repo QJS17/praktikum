@@ -1,3 +1,6 @@
+package praktikum.campusrallye;
+
+
 public class CampusRallyeCode {
 
     public static void main(String[] args) {
