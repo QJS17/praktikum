@@ -12,7 +12,7 @@ public class A_Variablen_Deklarieren
 
     public static void main(String[] args)
     {
-        System.out.println("Hello World");
+
     }
 
 }
